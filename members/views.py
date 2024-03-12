@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.template import loader
-import numpy as np
+#import numpy as np
 
 #x = [1,2,3]
 #testnumber = np.mean(x)
