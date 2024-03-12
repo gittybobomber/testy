@@ -1,13 +1,13 @@
 from django.http import HttpResponse
 from django.template import loader
-import numpy as np
+#import numpy as np
 
-x = [1,2,3]
+#x = [1,2,3]
 #testnumber = np.mean(x)
 #print(testnumber)
 def members(request):
   template = loader.get_template('basy.html')
-  context = {
+  #context = {
     #'testnum': testnumber
-  }
-  return HttpResponse(template.render(context))
+  #}
+  return HttpResponse(template.render())
